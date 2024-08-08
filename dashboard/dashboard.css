@@ -1,0 +1,10 @@
+*{
+    font-family: sans-serif;
+}
+
+button{
+    padding: 15px 10px;
+    font-size: 0.8rem;
+    background-color: #2C73EB;
+    color: #fff;
+}

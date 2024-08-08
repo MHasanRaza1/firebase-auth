@@ -1,0 +1,93 @@
+:root{
+    --blue: #2C73EB;
+    --gray: #8692A6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.left{
+    height: 100vh;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.left .logo{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.image{
+    width: 350px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.right{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.right .login{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.login i{
+    font-size: 0.8rem;
+    margin-right: 5px;
+    color: var(--gray);
+}
+
+.login a{
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.right .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    width: 50%;
+}
+
+.login-form h3{
+    font-weight: 700;
+}
+
+.login-form p{
+    color: var(--gray);
+}
+
+.login-form label{
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.login-form .forget{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
